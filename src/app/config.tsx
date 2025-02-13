@@ -22,7 +22,7 @@ export const config: Config = {
       quote:
         "Joe is very detail oriented and a great addition to any team. Joe continues to impress me with his great attitude towards learning new technologies, his ability to quickly grasp what's at hand and his tenacity to get things done right the first time.",
       name: "Brian S",
-      company: "Discover",
+      company: "Discover Financial Services",
       pic: "ok",
     },
     {
