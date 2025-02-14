@@ -1,4 +1,5 @@
 interface Config {
+  jobs: Array<Job>;
   testimonials: Array<Testimonial>;
 }
 
@@ -9,7 +10,88 @@ export interface Testimonial {
   pic: string;
 }
 
+export interface Job {
+  company: string;
+  title: string;
+  logo: string;
+  start: string;
+  end: string;
+  responsibilities: string[];
+  technologies: string[];
+}
+
 export const config: Config = {
+  jobs: [
+    {
+      company: "NextOrbit",
+      title: "Freelance Full Stack Software & DevOps Engineer",
+      logo: "images/companies/nextorbit.png",
+      start: "2024",
+      end: "Present",
+      responsibilities: [
+        "Architecting and deploying HashiCorp Vault secrets management programs",
+        "Building CI/CD pipelines, automating cloud application deployments, deploying infrastructure as code using Terraform",
+      ],
+      technologies: ["Terraform", "HashiCorp Vault", "Gitlab", "GitHub", "AWS"],
+    },
+    {
+      company: "Optiv",
+      title: "Engineering Manager / DevOps & Engineering Consultant",
+      logo: "images/companies/optiv.jpeg",
+      start: "2020",
+      end: "2024",
+      responsibilities: [
+        "Managed, mentored and project oversight for a team of consultants",
+        "Project scoping, pre-sales, pricing and developed statements of work",
+        "Architected & deployed HashiCorp Vault secrets management programs",
+        "Developed methods for and conducted DevSecOps and container security maturity assessments",
+        "Built re-usable Vault/Terraform modules, documentation and training to accelerate delivery speed",
+        "Earned HashiCorp Security & Infrastructure competencies, achieving top-tier partner status",
+      ],
+      technologies: ["FILL THIS IN"],
+    },
+    {
+      company: "Systolic",
+      title: "Software Engineering Manager / Full Stack Software Engineer",
+      logo: "images/companies/systolic.png",
+      start: "2014",
+      end: "2020",
+      responsibilities: [
+        "Managed and coached team of 10 multidisciplinary software engineers",
+        "Customer engagement, requirements gathering, code reviews and led team agile processes",
+        "Led full scale application and architecture updates",
+        "Full stack software engineering across multiple projects",
+        "Implemented CI/CD pipelines to automate infrastructure and application deployments",
+        "Containerized and deployed applications to Kubernetes",
+      ],
+      technologies: ["FILL THIS IN"],
+    },
+    {
+      company: "Parsons",
+      title: "Full Stack Software Engineer",
+      logo: "images/companies/parsons.png",
+      start: "2011",
+      end: "2014",
+      responsibilities: [
+        "Designed and developed scalable PHP web applications",
+        "Built dynamic and responsive UIs using Angular",
+        "Collaborated with cross-functional teams including product managers, database team, and QA engineers.",
+        "Led team agile processes, mentored junior developers and managed customer requirements",
+      ],
+      technologies: ["FILL THIS IN"],
+    },
+    {
+      company: "Discover Financial Services",
+      title: "Full Stack Software Engineer",
+      logo: "images/companies/discover.png",
+      start: "2009",
+      end: "2011",
+      responsibilities: [
+        "Designed, developed and implemented enterprise application modernization and migration strategies",
+      ],
+      technologies: ["FILL THIS IN"],
+    },
+  ],
   testimonials: [
     {
       quote:
