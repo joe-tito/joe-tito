@@ -3,8 +3,7 @@
 import { useTheme } from "next-themes";
 
 export default function DarkLightButton() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { theme, setTheme } = useTheme();
 
   return (
     <div>

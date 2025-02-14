@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import PrelineScript from "./libraries/preline";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: {
@@ -66,6 +67,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class">{children}</ThemeProvider>
         <PrelineScript />
+        <GoogleAnalytics gaId="G-HSLHKK409V" />
       </body>
     </html>
   );
