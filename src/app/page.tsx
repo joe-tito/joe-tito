@@ -22,38 +22,38 @@ export default function Home() {
             </div>
 
             <div className="grow">
-              <h1 className="text-3xl font-extrabold text-gray-800 dark:text-neutral-200">
+              <h1 className="text-3xl font-extrabold text-neutral-800 dark:text-neutral-200">
                 Joe Tito
               </h1>
-              <p className="text-xl text-gray-500 dark:text-neutral-400">
+              <p className="text-xl text-neutral-500 dark:text-neutral-400">
                 Full Stack Software & DevOps Engineer
               </p>
             </div>
           </div>
 
           <div className="mt-8">
-            <p className="text-sm text-gray-600 dark:text-neutral-400">
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">
               I am a full stack software & devops engineer with over 15 years
               experience in software development, engineering management and
               consulting. My expertise spans across full stack web development,
               devops automation, infrastructure as code and secrets management.
             </p>
 
-            <p className="mt-3 text-sm text-gray-600 dark:text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
               Currently, I work as a freelance consultant, where I help Fortune
               500 companies develop modern cloud based applications, implement
               secure automated devops practices and deploy enterprise secrets
               management solutions.
             </p>
 
-            <p className="mt-3 text-sm text-gray-600 dark:text-neutral-400">
+            <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
               When I&apos;m not attached to a keyboard, you&apos;ll find me
               hangin&apos; with our{" "}
               <span className="hs-tooltip [--trigger:hover] inline-block">
                 <span className="hs-tooltip-toggle ">
                   <span className="text-fuchsia-500">kitties</span>
                   <span
-                    className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity absolute invisible z-10 bg-white border text-sm text-gray-600 rounded-lg shadow-md dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 flex p-4 space-x-4"
+                    className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity absolute invisible z-10 bg-white border text-sm text-neutral-600 rounded-lg shadow-md dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 flex p-4 space-x-4"
                     role="tooltip"
                   >
                     <img
@@ -74,7 +74,7 @@ export default function Home() {
             </p>
 
             <ul className="mt-5 flex gap-x-3">
-              <li className="flex items-center gap-x-2.5">
+              <li className="flex items-center gap-x-2">
                 <svg
                   className="shrink-0 size-4 fill-sky-600"
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ export default function Home() {
                   <path d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z"></path>
                 </svg>
                 <a
-                  className="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                  className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                   href="https://www.linkedin.com/in/joetito/"
                   target="_blank"
                 >
@@ -91,7 +91,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="flex items-center gap-x-2.5">
+              <li className="flex items-center gap-x-2">
                 <svg
                   className="shrink-0 size-3.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ export default function Home() {
                   />
                 </svg>
                 <a
-                  className="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                  className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                   href="https://gitlab.com/joetito1"
                   target="_blank"
                 >
@@ -136,7 +136,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="flex items-center gap-x-2.5">
+              <li className="flex items-center gap-x-2">
                 <svg
                   className="shrink-0 size-3.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +149,7 @@ export default function Home() {
                   />
                 </svg>
                 <a
-                  className="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                  className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                   href="https://bsky.app/profile/joetito.bsky.social"
                   target="_blank"
                 >
@@ -157,7 +157,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="flex items-center gap-x-2.5">
+              <li className="flex items-center gap-x-2">
                 <svg
                   className="shrink-0 size-3 text-neutral-900 dark:text-neutral-50"
                   viewBox="0 0 24 24"
@@ -170,7 +170,7 @@ export default function Home() {
                   />
                 </svg>
                 <a
-                  className="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                  className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                   href="https://x.com/joetito"
                   target="_blank"
                 >
@@ -191,12 +191,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -222,12 +222,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -253,12 +253,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1516131206008-dd041a9764fd?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -284,12 +284,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -315,12 +315,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1585159812596-fac104f2f069?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -346,12 +346,12 @@ export default function Home() {
                 href="#"
               >
                 <img
-                  className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                  className="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
                   src="https://images.unsplash.com/photo-1654131300276-db70adf4f85d?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Project"
                 />
                 <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                  <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                     <svg
                       className="shrink-0 size-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -388,7 +388,7 @@ export default function Home() {
             <div className="space-y-3">
               <dl className="flex flex-col sm:flex-row gap-1">
                 <dt className="min-w-40">
-                  <span className="block text-sm text-gray-500 dark:text-neutral-500">
+                  <span className="block text-sm text-neutral-500 dark:text-neutral-500">
                     Languages:
                   </span>
                 </dt>
@@ -413,7 +413,7 @@ export default function Home() {
 
               <dl className="flex flex-col sm:flex-row gap-1">
                 <dt className="min-w-40">
-                  <span className="block text-sm text-gray-500 dark:text-neutral-500">
+                  <span className="block text-sm text-neutral-500 dark:text-neutral-500">
                     Frameworks:
                   </span>
                 </dt>
@@ -432,7 +432,7 @@ export default function Home() {
 
               <dl className="flex flex-col sm:flex-row gap-1">
                 <dt className="min-w-40">
-                  <span className="block text-sm text-gray-500 dark:text-neutral-500">
+                  <span className="block text-sm text-neutral-500 dark:text-neutral-500">
                     Tools:
                   </span>
                 </dt>
@@ -464,7 +464,7 @@ export default function Home() {
 
               <dl className="flex flex-col sm:flex-row gap-1">
                 <dt className="min-w-40">
-                  <span className="block text-sm text-gray-500 dark:text-neutral-500">
+                  <span className="block text-sm text-neutral-500 dark:text-neutral-500">
                     Databases:
                   </span>
                 </dt>
@@ -484,43 +484,43 @@ export default function Home() {
 
               <dl className="flex flex-col sm:flex-row gap-1">
                 <dt className="min-w-40">
-                  <span className="block text-sm text-gray-500 dark:text-neutral-500">
+                  <span className="block text-sm text-neutral-500 dark:text-neutral-500">
                     Skills:
                   </span>
                 </dt>
                 <dd>
                   <ul>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Full Stack Software Engineering
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       CI/CD Pipelines
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       DevSecOps
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Containerization
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Secrets Management
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Infrastructure as Code
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Cloud Migrations
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Consulting
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Team Leadership
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Agile Development
                     </li>
-                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <li className="mr-4 mb-2 inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200">
                       Sales Support
                     </li>
                   </ul>
@@ -536,7 +536,7 @@ export default function Home() {
 
             <div>
               <div className="group relative flex gap-x-5">
-                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
                   <div className="relative z-10 size-6 flex justify-center items-center">
                     <img
                       src="images/companies/nextorbit.png"
@@ -546,38 +546,38 @@ export default function Home() {
                 </div>
 
                 <div className="grow pb-8 group-last:pb-0">
-                  <h3 className="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  <h3 className="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
                     2024 - Present
                   </h3>
 
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     NextOrbit{" "}
                     <span className="font-light text-neutral-400">
                       - Freelance Full Stack Software & DevOps Engineer
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     The company has high expectations and using OKRs there is a
                     mutual understanding of expectations and performance.
                   </p>
 
                   <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Designed template UIs and design systems in Figma.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Converted UIs into responsive HTML and CSS with a
                       mobile-first approach.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Created custom illustrations and item description banners.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Provided detailed documentation and customer support on
                       GitHub.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Engaged with users to address setup inquiries, bug issues,
                       and feedback.
                     </li>
@@ -586,7 +586,7 @@ export default function Home() {
               </div>
 
               <div className="group relative flex gap-x-5">
-                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
                   <div className="relative z-10 size-6 flex justify-center items-center">
                     <img
                       src="images/companies/optiv.jpeg"
@@ -596,18 +596,18 @@ export default function Home() {
                 </div>
 
                 <div className="grow pb-8 group-last:pb-0">
-                  <h3 className="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  <h3 className="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
                     2020 - 2024
                   </h3>
 
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Optiv -{" "}
                     <span className="font-light text-neutral-400">
                       Freelance Full Stack Software & DevOps Engineer
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     This is an excellent company and they reward their
                     employees. It&apos;s becoming a big company but it&apos;s
                     still private, so the culture is as good as it gets at
@@ -618,7 +618,7 @@ export default function Home() {
 
                   <div className="mt-3">
                     <a
-                      className="block border border-gray-200 rounded-lg hover:shadow-sm focus:outline-none dark:border-neutral-700"
+                      className="block border border-neutral-200 rounded-lg hover:shadow-sm focus:outline-none dark:border-neutral-700"
                       href="#"
                     >
                       <div className="relative flex items-center overflow-hidden">
@@ -630,10 +630,10 @@ export default function Home() {
 
                         <div className="grow p-4 ms-32 sm:ms-48">
                           <div className="min-h-24 flex flex-col justify-center">
-                            <h3 className="font-semibold text-sm text-gray-800 dark:text-neutral-300">
+                            <h3 className="font-semibold text-sm text-neutral-800 dark:text-neutral-300">
                               Studio by Mailchimp
                             </h3>
-                            <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
+                            <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
                               Produce professional, reliable streams easily
                               leveraging Mailchimp&apos;s innovative broadcast
                               studio.
@@ -647,7 +647,7 @@ export default function Home() {
               </div>
 
               <div className="group relative flex gap-x-5">
-                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
                   <div className="relative z-10 size-6 flex justify-center items-center">
                     <img
                       src="images/companies/systolic.png"
@@ -657,18 +657,18 @@ export default function Home() {
                 </div>
 
                 <div className="grow pb-8 group-last:pb-0">
-                  <h3 className="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  <h3 className="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
                     2014 - 2020
                   </h3>
 
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Systolic -{" "}
                     <span className="font-light text-neutral-400">
                       Freelance Full Stack Software & DevOps Engineer
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     Work in Slack is one of the beautiful experience I can do in
                     my entire life. There are a lot of interesting thing to
                     learn and manager respect your time and your personality.
@@ -677,7 +677,7 @@ export default function Home() {
               </div>
 
               <div className="group relative flex gap-x-5">
-                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
                   <div className="relative z-10 size-6 flex justify-center items-center">
                     <img
                       src="images/companies/parsons.png"
@@ -687,11 +687,11 @@ export default function Home() {
                 </div>
 
                 <div className="grow pb-8 group-last:pb-0">
-                  <h3 className="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  <h3 className="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
                     2011 - 2014
                   </h3>
 
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Parsons -{" "}
                     <span className="font-light text-neutral-400">
                       Freelance Full Stack Software & DevOps Engineer
@@ -699,15 +699,15 @@ export default function Home() {
                   </p>
 
                   <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Worked with a diverse range of clients, delivering
                       tailored design solutions.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Developed and maintained strong client relationships
                       through effective communication and project management.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Utilized tools such as Notion for project tracking,
                       Mailchimp for email marketing designs, Slack for team
                       collaboration, and GitHub for version control and project
@@ -718,7 +718,7 @@ export default function Home() {
               </div>
 
               <div className="group relative flex gap-x-5">
-                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
                   <div className="relative z-10 size-6 flex justify-center items-center">
                     <img
                       src="images/companies/discover.png"
@@ -728,11 +728,11 @@ export default function Home() {
                 </div>
 
                 <div className="grow pb-8 group-last:pb-0">
-                  <h3 className="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  <h3 className="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
                     2009 - 2011
                   </h3>
 
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Discover Financial Services -{" "}
                     <span className="font-light text-neutral-400">
                       Software Engineer
@@ -740,15 +740,15 @@ export default function Home() {
                   </p>
 
                   <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Worked with a diverse range of clients, delivering
                       tailored design solutions.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Developed and maintained strong client relationships
                       through effective communication and project management.
                     </li>
-                    <li className="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Utilized tools such as Notion for project tracking,
                       Mailchimp for email marketing designs, Slack for team
                       collaboration, and GitHub for version control and project
@@ -766,13 +766,13 @@ export default function Home() {
             <SectionTitle title="Certifications" />
 
             <div className="grid grid-cols-1  gap-3">
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/hashicorp-ambassador.png"
                   className="size-20"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-gray-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
                     2024 HashiCorp Ambassador
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -786,10 +786,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img src="images/certs/vault-chip.png" className="size-20" />
                 <div>
-                  <div className="font-semibold text-lg text-gray-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
                     Vault Certified HashiCorp Implementation Partner (CHIP)
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -802,13 +802,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/vault-associate.png"
                   className="size-20"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-gray-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
                     Vault Associate
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -821,13 +821,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/terraform-associate.png"
                   className="size-20"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-gray-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
                     Terraform Associate
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -849,31 +849,31 @@ export default function Home() {
             <SectionTitle title="Education" />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/schools/depaul.png"
                   className="shrink-0 size-20 "
                 />
                 <div>
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Master&apos;s Degree in Computer Science
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     Depaul University
                   </p>
                 </div>
               </div>
 
-              <div className="p-4 border border-gray-200 rounded-lg dark:border-neutral-700 flex space-x-4">
+              <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/schools/niu.png"
                   className="shrink-0 size-20 "
                 />
                 <div>
-                  <p className="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Bachelor&apos;s Degree in Computer Science
                   </p>
-                  <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     Northern Illinois University
                   </p>
                 </div>
@@ -888,18 +888,18 @@ export default function Home() {
 
             <ul className="space-y-10">
               <li>
-                <p className="mb-2 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mb-2 text-sm text-neutral-500 dark:text-neutral-500">
                   2024
                 </p>
-                <h5 className="font-medium text-sm text-gray-800 dark:text-neutral-200">
+                <h5 className="font-medium text-sm text-neutral-800 dark:text-neutral-200">
                   The complete guide to OKRs
                 </h5>
-                <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
                   How to make objectives and key results work for your company.
                 </p>
                 <p className="mt-1">
                   <a
-                    className="text-sm text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                    className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                     href="#"
                   >
                     Continue reading
@@ -908,20 +908,20 @@ export default function Home() {
               </li>
 
               <li>
-                <p className="mb-2 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mb-2 text-sm text-neutral-500 dark:text-neutral-500">
                   2024
                 </p>
-                <h5 className="font-medium text-sm text-gray-800 dark:text-neutral-200">
+                <h5 className="font-medium text-sm text-neutral-800 dark:text-neutral-200">
                   Enhancement in Customer Engagement
                 </h5>
-                <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
                   With the aim of optimizing customer interactions and boosting
                   brand loyalty, the team at Preline leveraged Mailchimp&apos;s
                   powerful tools and expertise to deliver exceptional results.
                 </p>
                 <p className="mt-1">
                   <a
-                    className="text-sm text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                    className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                     href="#"
                   >
                     Continue reading
@@ -930,19 +930,19 @@ export default function Home() {
               </li>
 
               <li>
-                <p className="mb-2 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mb-2 text-sm text-neutral-500 dark:text-neutral-500">
                   2023
                 </p>
-                <h5 className="font-medium text-sm text-gray-800 dark:text-neutral-200">
+                <h5 className="font-medium text-sm text-neutral-800 dark:text-neutral-200">
                   How Google Assistant now helps you record stories for kids
                 </h5>
-                <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
+                <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-500">
                   Google is constantly updating its consumer AI, Google
                   Assistant, with new features.
                 </p>
                 <p className="mt-1">
                   <a
-                    className="text-sm text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                    className="text-sm text-neutral-500 underline hover:text-neutral-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
                     href="#"
                   >
                     Continue reading
@@ -958,11 +958,11 @@ export default function Home() {
             <SectionTitle title="Contact Me" />
 
             <form>
-              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-gray-200 rounded-lg dark:border-neutral-700 mb-4">
+              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-neutral-200 rounded-lg dark:border-neutral-700 mb-4">
                 <div className="relative w-full">
                   <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
                     <svg
-                      className="shrink-0 size-4 text-gray-400 dark:text-neutral-600"
+                      className="shrink-0 size-4 text-neutral-400 dark:text-neutral-600"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -987,7 +987,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-gray-200 rounded-lg dark:border-neutral-700 mb-4">
+              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-neutral-200 rounded-lg dark:border-neutral-700 mb-4">
                 <div className="relative w-full">
                   <textarea
                     id="hero-input"
@@ -999,7 +999,7 @@ export default function Home() {
                   ></textarea>
                 </div>
               </div>
-              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-neutral-200 rounded-lg dark:border-neutral-700">
                 <div className="relative w-full">
                   <input
                     type="submit"
