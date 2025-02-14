@@ -1,11 +1,8 @@
-import Articles from "./components/articles";
 import Certifications from "./components/certifications";
-import Contact from "./components/contact";
 import Education from "./components/education";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Profile from "./components/profile";
-import Projects from "./components/projects";
 import SectionSpacer from "./components/section-spacer";
 import Skills from "./components/skills";
 import Testimonials from "./components/testimonials";
@@ -19,14 +16,14 @@ export default function Home() {
       <main className="w-full max-w-2xl mx-auto pt-10 md:pt-16 px-4 sm:px-6 lg:px-8">
         <Profile />
 
-        <SectionSpacer id="projects" />
-        <Projects />
-
-        <SectionSpacer id="testimonials" />
-        <Testimonials />
+        {/* <SectionSpacer id="projects" />
+        <Projects /> */}
 
         <SectionSpacer id="skills" />
         <Skills />
+
+        <SectionSpacer id="testimonials" />
+        <Testimonials />
 
         <SectionSpacer id="work" />
         <Work />
@@ -37,11 +34,11 @@ export default function Home() {
         <SectionSpacer id="education" />
         <Education />
 
-        <SectionSpacer id="articles" />
+        {/* <SectionSpacer id="articles" />
         <Articles />
 
         <SectionSpacer id="contact" />
-        <Contact />
+        <Contact /> */}
 
         <SectionSpacer id="footer" />
       </main>

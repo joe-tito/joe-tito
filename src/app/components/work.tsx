@@ -53,11 +53,11 @@ export default function Work() {
                   ))}
                 </ul>
 
-                <div className="flex mt-3">
+                <div className="flex flex-wrap mt-3">
                   {technologies.map((technology, index) => (
                     <div
                       key={index}
-                      className="text-xs font-semibold bg-fuchsia-700 text-neutral-50 px-2 py-1 rounded-md mr-2"
+                      className="text-xs font-semibold bg-fuchsia-700 text-neutral-50 px-2 py-1 rounded-md mr-2 mb-1"
                     >
                       {technology}
                     </div>
