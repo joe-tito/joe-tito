@@ -31,11 +31,11 @@ export default function Testimonials() {
   }'
       className="relative"
     >
-      <div className="hs-carousel relative overflow-hidden w-full h-36 rounded-xl">
+      <div className="hs-carousel relative overflow-hidden w-full h-40 rounded-xl">
         <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
           {testimonials.map(({ quote, name, company }, index) => (
             <div key={index} className="hs-carousel-slide">
-              <div className="justify-center h-full p-6 bg-gradient-to-tr hover:bg-gradient-to-bl from-neutral-100 to-neutral-50 dark:from-neutral-950 dark:to-neutral-900">
+              <div className="justify-center h-full p-6 bg-gradient-to-tr hover:bg-gradient-to-bl from-neutral-200 to-neutral-100 dark:from-neutral-900 dark:to-neutral-800">
                 <div className="self-center text-neutral-700 dark:text-neutral-200 transition duration-700 italic font-semibold mb-2 leading-tight">
                   &quot;{quote}&quot;
                 </div>

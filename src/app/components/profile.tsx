@@ -62,7 +62,7 @@ export default function Profile() {
           learning how to put it back together.
         </p>
 
-        <ul className="mt-5 flex gap-x-3">
+        <ul className="mt-5 flex flex-wrap gap-x-3 gap-y-2">
           <li className="flex items-center gap-x-2">
             <svg
               className="shrink-0 size-4 fill-sky-600"
