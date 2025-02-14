@@ -557,14 +557,15 @@ export default function Home() {
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
+                  {/* <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     The company has high expectations and using OKRs there is a
                     mutual understanding of expectations and performance.
-                  </p>
+                  </p> */}
 
                   <ul className="list-disc ms-6 mt-3 space-y-1.5">
                     <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
-                      Designed template UIs and design systems in Figma.
+                      Architect and deploy HashiCorp Vault secrets management
+                      programs
                     </li>
                     <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
                       Converted UIs into responsive HTML and CSS with a
@@ -603,20 +604,47 @@ export default function Home() {
                   <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Optiv -{" "}
                     <span className="font-light text-neutral-400">
-                      Freelance Full Stack Software & DevOps Engineer
+                      Engineering Manager / DevOps & Engineering Consultant
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
+                  <ul className="list-disc ms-6 mt-3 space-y-1.5">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Managed, mentored and project oversight for a team of
+                      consultants
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Project scoping, pre-sales, pricing and developed
+                      statements of work
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Architected & deployed HashiCorp Vault secrets management
+                      programs
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Developed methods for and conducted DevSecOps and
+                      container security maturity assessments
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Built re-usable Vault/Terraform modules, documentation and
+                      training to accelerate delivery speed
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Earned HashiCorp Security & Infrastructure competencies,
+                      achieving top-tier partner status
+                    </li>
+                  </ul>
+
+                  {/* <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     This is an excellent company and they reward their
                     employees. It&apos;s becoming a big company but it&apos;s
                     still private, so the culture is as good as it gets at
                     1,000+ employees if you ask me. Managers are still adapting
                     to the growth I think, but everyone has to. Great place to
                     work.
-                  </p>
+                  </p> */}
 
-                  <div className="mt-3">
+                  {/* <div className="mt-3">
                     <a
                       className="block border border-neutral-200 rounded-lg hover:shadow-sm focus:outline-none dark:border-neutral-700"
                       href="#"
@@ -642,7 +670,7 @@ export default function Home() {
                         </div>
                       </div>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -664,15 +692,43 @@ export default function Home() {
                   <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Systolic -{" "}
                     <span className="font-light text-neutral-400">
-                      Freelance Full Stack Software & DevOps Engineer
+                      Software Engineering Manager / Full Stack Software
+                      Engineer
                     </span>
                   </p>
 
-                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
+                  <ul className="list-disc ms-6 mt-3 space-y-1.5">
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Managed, mentored and project oversight for a team of
+                      consultants
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Project scoping, pre-sales, pricing and developed
+                      statements of work
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Architected & deployed HashiCorp Vault secrets management
+                      programs
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Developed methods for and conducted DevSecOps and
+                      container security maturity assessments
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Built re-usable Vault/Terraform modules, documentation and
+                      training to accelerate delivery speed
+                    </li>
+                    <li className="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
+                      Earned HashiCorp Security & Infrastructure competencies,
+                      achieving top-tier partner status
+                    </li>
+                  </ul>
+
+                  {/* <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
                     Work in Slack is one of the beautiful experience I can do in
                     my entire life. There are a lot of interesting thing to
                     learn and manager respect your time and your personality.
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -694,7 +750,7 @@ export default function Home() {
                   <p className="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
                     Parsons -{" "}
                     <span className="font-light text-neutral-400">
-                      Freelance Full Stack Software & DevOps Engineer
+                      Full Stack Software Engineer
                     </span>
                   </p>
 
@@ -769,10 +825,10 @@ export default function Home() {
               <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/hashicorp-ambassador.png"
-                  className="size-20"
+                  className="size-28"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
                     2024 HashiCorp Ambassador
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -787,47 +843,46 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
-                <img src="images/certs/vault-chip.png" className="size-20" />
+                <img src="images/certs/vault-chip.png" className="size-28" />
                 <div>
-                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
                     Vault Certified HashiCorp Implementation Partner (CHIP)
                   </div>
                   <div className="text-xs text-neutral-500">
-                    HashiCorp partner practitioners who achieve Vault CHIP
-                    certification have proven that they understand how to deploy
-                    and maintain Vault Enterprise in a production customer
-                    environment and they understand the differentiation between
-                    Vault offerings of Open Source and Enterprise for private
-                    deployment.
+                    Partner practitioners who achieve Vault CHIP certification
+                    have proven that they understand how to deploy and maintain
+                    Vault Enterprise in a production customer environment and
+                    they understand the differentiation between Vault offerings
+                    of Open Source and Enterprise for private deployment.
                   </div>
                 </div>
               </div>
               <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/vault-associate.png"
-                  className="size-20"
+                  className="size-28"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
                     Vault Associate
                   </div>
                   <div className="text-xs text-neutral-500">
-                    Vault Associate certification know the concepts, skills, and
-                    use cases associated with HashiCorp Vault. They understand
-                    and can utilize Vault according to the certification
-                    objectives. Additionally, they understand why enterprises
-                    choose to extend Vault Open Source with Vault Enterprise to
-                    solve business critical objectives.
+                    Vault Associates know the concepts, skills, and use cases
+                    associated with HashiCorp Vault. They understand and can
+                    utilize Vault according to the certification objectives.
+                    Additionally, they understand why enterprises choose to
+                    extend Vault Open Source with Vault Enterprise to solve
+                    business critical objectives.
                   </div>
                 </div>
               </div>
               <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
                 <img
                   src="images/certs/terraform-associate.png"
-                  className="size-20"
+                  className="size-28"
                 />
                 <div>
-                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200">
+                  <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
                     Terraform Associate
                   </div>
                   <div className="text-xs text-neutral-500">
@@ -993,7 +1048,7 @@ export default function Home() {
                     id="hero-input"
                     name="hero-input"
                     rows={4}
-                    className="py-2 block w-full border-transparent rounded-lg text-sm focus:border-transparent focus:ring-transparent  text-neutral-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:text-neutral-400 dark:placeholder-neutral-500"
+                    className="p-3 block w-full border-transparent rounded-lg text-sm focus:border-transparent focus:ring-transparent  text-neutral-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:text-neutral-400 dark:placeholder-neutral-500"
                     placeholder="Write your message"
                     required
                   ></textarea>
