@@ -377,8 +377,6 @@ export default function Home() {
           <SectionSpacer id="testimonials" />
 
           <div>
-            <SectionTitle title="Testimonials" />
-
             <Testimonials />
           </div>
 
@@ -611,10 +609,11 @@ export default function Home() {
 
                   <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
                     This is an excellent company and they reward their
-                    employees. It's becoming a big company but it's still
-                    private, so the culture is as good as it gets at 1,000+
-                    employees if you ask me. Managers are still adapting to the
-                    growth I think, but everyone has to. Great place to work.
+                    employees. It&apos;s becoming a big company but it&apos;s
+                    still private, so the culture is as good as it gets at
+                    1,000+ employees if you ask me. Managers are still adapting
+                    to the growth I think, but everyone has to. Great place to
+                    work.
                   </p>
 
                   <div className="mt-3">
@@ -636,7 +635,7 @@ export default function Home() {
                             </h3>
                             <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
                               Produce professional, reliable streams easily
-                              leveraging Mailchimp's innovative broadcast
+                              leveraging Mailchimp&apos;s innovative broadcast
                               studio.
                             </p>
                           </div>
@@ -917,7 +916,7 @@ export default function Home() {
                 </h5>
                 <p className="mt-1 text-sm text-gray-500 dark:text-neutral-500">
                   With the aim of optimizing customer interactions and boosting
-                  brand loyalty, the team at Preline leveraged Mailchimp's
+                  brand loyalty, the team at Preline leveraged Mailchimp&apos;s
                   powerful tools and expertise to deliver exceptional results.
                 </p>
                 <p className="mt-1">
