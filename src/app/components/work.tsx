@@ -1,7 +1,12 @@
+import Image from "next/image";
 import { config } from "../config";
 import SectionTitle from "./section-title";
 
 export default function Work() {
+  const loaderProp = ({ src }) => {
+    return src;
+  };
+
   return (
     <div>
       <SectionTitle title="Work Experience" />

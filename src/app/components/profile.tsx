@@ -1,16 +1,23 @@
+import Image from "next/image";
+
 export default function Profile() {
   return (
     <div>
       <div className="flex items-center gap-x-6">
-        <div className="shrink-0">
-          <img
-            className="shrink-0 size-36 rounded-full"
-            src="/images/joe.jpg"
-            alt="Avatar"
-          />
+        <div className="shrink-0 animate-fade-up animate-ease-in-out animate-duration-[2000ms]">
+          <div className="shrink-0 size-36 relative">
+            <Image
+              src="/images/joe.jpg"
+              alt="Joe Tito"
+              sizes="100%"
+              fill
+              priority
+              className="rounded-full fill-current"
+            />
+          </div>
         </div>
 
-        <div className="grow">
+        <div className="grow animate-fade-up animate-ease-in-out animate-duration-[2000ms]">
           <h1 className="text-3xl font-extrabold text-neutral-800 dark:text-neutral-200">
             Joe Tito
           </h1>
@@ -21,21 +28,21 @@ export default function Profile() {
       </div>
 
       <div className="mt-8">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-600 dark:text-neutral-400 animate-fade-up animate-duration-[2000ms] animate-delay-[500ms] animate-ease-in-out">
           I am a full stack software & devops engineer with over 15 years
           experience in software development, engineering management and
           consulting. My expertise spans across full stack web development,
           ci/cd automation, infrastructure as code and secrets management.
         </p>
 
-        <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400 animate-fade-up animate-duration-[2000ms] animate-delay-[500ms] animate-ease-in-out">
           Currently, I work as a freelance consultant, where I help Fortune 500
           companies develop and deploy modern cloud based applications,
           implement secure automated devops practices and deploy enterprise
           secrets management solutions.
         </p>
 
-        <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
+        <div className="mt-3 text-sm text-neutral-600 dark:text-neutral-400 animate-fade-up animate-duration-[2000ms] animate-delay-[500ms] animate-ease-in-out">
           When I&apos;m not attached to a keyboard, you&apos;ll find me
           hangin&apos; with our{" "}
           <span className="hs-tooltip [--trigger:hover] inline-block">
@@ -45,24 +52,32 @@ export default function Profile() {
                 className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity absolute invisible z-10 bg-white border text-sm text-neutral-600 rounded-lg shadow-md dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 flex p-4 space-x-4"
                 role="tooltip"
               >
-                <img
-                  src="/images/ty.png"
-                  className="size-48 rounded-md"
-                  alt="Ty"
-                />
-                <img
-                  src="/images/toby.png"
-                  className="size-48 rounded-md"
-                  alt="Toby"
-                />
+                <div className="shrink-0 size-48 relative">
+                  <Image
+                    src="/images/ty.png"
+                    alt="Ty"
+                    sizes="100%"
+                    fill
+                    className="rounded-md"
+                  />
+                </div>
+                <div className="shrink-0 size-48 relative">
+                  <Image
+                    src="/images/toby.png"
+                    alt="Toby"
+                    sizes="100%"
+                    fill
+                    className="rounded-md"
+                  />
+                </div>
               </span>
             </span>
           </span>{" "}
           😸, adventuring in Vermont 🍁 or tearing our house apart 🛠️ and
           learning how to put it back together.
-        </p>
+        </div>
 
-        <ul className="mt-5 flex flex-wrap gap-x-3 gap-y-2">
+        <ul className="mt-5 flex flex-wrap gap-x-3 gap-y-2 animate-fade-up animate-duration-[2000ms] animate-delay-[750ms] animate-ease-in-out">
           <li className="flex items-center gap-x-2">
             <svg
               className="shrink-0 size-4 fill-sky-600"

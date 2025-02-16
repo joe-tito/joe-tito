@@ -4,8 +4,11 @@ import Skill from "./skill";
 export default function Skills() {
   return (
     <div>
-      <SectionTitle title="Skills" />
-      <div className="space-y-3">
+      <SectionTitle
+        title="Skills"
+        classes="animate-fade animate-duration-[2000ms] animate-delay-[1000ms] animate-ease-in-out"
+      />
+      <div className="space-y-3 animate-fade animate-duration-[2000ms] animate-delay-[1000ms] animate-ease-in-out">
         <dl className="flex flex-col sm:flex-row gap-1">
           <dt className="min-w-40">
             <span className="block text-sm text-neutral-500 dark:text-neutral-500">

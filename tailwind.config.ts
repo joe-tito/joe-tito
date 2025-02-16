@@ -19,6 +19,7 @@ export default {
   },
   plugins: [
     require('preline/plugin'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require('tailwindcss-animated')
   ],
 } satisfies Config;

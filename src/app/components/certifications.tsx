@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SectionTitle from "./section-title";
 
 export default function Certifications() {
@@ -7,10 +8,14 @@ export default function Certifications() {
 
       <div className="grid grid-cols-1  gap-3">
         <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
-          <img
-            src="images/certs/hashicorp-ambassador.png"
-            className="size-28"
-          />
+          <div className="shrink-0 size-28 relative">
+            <Image
+              src="/images/certs/hashicorp-ambassador.png"
+              alt="HashiCorp Ambassador"
+              sizes="100%"
+              fill
+            />
+          </div>
           <div>
             <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
               2024 HashiCorp Ambassador
@@ -26,7 +31,14 @@ export default function Certifications() {
           </div>
         </div>
         <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
-          <img src="images/certs/vault-chip.png" className="size-28" />
+          <div className="shrink-0 size-28 relative">
+            <Image
+              src="/images/certs/vault-chip.png"
+              alt="Vault Certified HashiCorp Implementation Partner"
+              sizes="100%"
+              fill
+            />
+          </div>
           <div>
             <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
               Vault Certified HashiCorp Implementation Partner (CHIP)
@@ -41,7 +53,14 @@ export default function Certifications() {
           </div>
         </div>
         <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
-          <img src="images/certs/vault-associate.png" className="size-28" />
+          <div className="shrink-0 size-28 relative">
+            <Image
+              src="/images/certs/vault-associate.png"
+              alt="Vault Associate"
+              sizes="100%"
+              fill
+            />
+          </div>
           <div>
             <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
               Vault Associate
@@ -56,7 +75,14 @@ export default function Certifications() {
           </div>
         </div>
         <div className="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700 flex space-x-4">
-          <img src="images/certs/terraform-associate.png" className="size-28" />
+          <div className="shrink-0 size-28 relative">
+            <Image
+              src="/images/certs/terraform-associate.png"
+              alt="Terraform Associate"
+              sizes="100%"
+              fill
+            />
+          </div>
           <div>
             <div className="font-semibold text-lg text-neutral-800 dark:text-neutral-200 mb-2">
               Terraform Associate
