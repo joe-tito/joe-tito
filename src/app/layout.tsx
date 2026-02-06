@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="f7430775-b3c8-43bb-9fe9-300cd1bf964d"></script>
         <meta charSet="utf-8" />
         <meta
           name="robots"
