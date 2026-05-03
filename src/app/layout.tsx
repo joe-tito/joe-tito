@@ -69,6 +69,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class">{children}</ThemeProvider>
         <PrelineScript />
         <GoogleAnalytics gaId="G-HSLHKK409V" />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
       </body>
     </html>
   );
